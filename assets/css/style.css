@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+button{
+    font-size: 2rem;
+    padding: 1em 2em;
+}
+
+.markers{
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    align-content: center; 
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+.wOrl{
+    position: fixed;
+    padding: 10px;
+    font-size: 3rem;
+
+}
+
+.starting-page{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.center{
+    text-align: center;
+}
+
+.word-container{
+    display: none;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.word-frame{
+    height:max-content;
+    width: max-content;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+.letter{
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    margin: 0;
+    padding: 25px;
+}
